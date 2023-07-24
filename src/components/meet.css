@@ -1,0 +1,75 @@
+h1,p{
+    text-align: center;
+}
+
+
+/* App.css */
+
+/* Styles for title4 */
+.title4 {
+    /* Add your desired styles for title4 */
+    position: relative;
+    /* Adjust top, left, right, bottom values to position the element as you want */
+    top: -45px;
+    left: -100px;
+    z-index: -1;
+  }
+  
+  /* Styles for title5 */
+  .title5 {
+    /* Add your desired styles for title5 */
+    position: absolute;
+    /* Adjust top, left, right, bottom values to position the element as you want */
+    top: -77px;
+    right: -50px;
+    z-index: -1;
+    
+  }
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Adjust font size for small devices */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .title1, .title2, .title3 {
+    font-size: 0.9rem;
+  }
+}
+
+/* Adjust font size for medium and large devices */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .title1, .title2, .title3 {
+    font-size: 1.2rem;
+  }
+}
+  
