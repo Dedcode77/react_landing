@@ -1,10 +1,15 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Cover from './components/Cover';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Cover/>}  />
+        <Route path = "*" element = {<Cover/>}  />
+      </Routes>
+      </BrowserRouter>
   );
 }
 
