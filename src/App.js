@@ -1,6 +1,7 @@
 import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import './Services.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -14,6 +15,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 >>>>>>> 031c7147cb1546d7605378ade79e40c962f4ef9a
+=======
+import './meet.css';
+
+>>>>>>> fa7984c2d0dd6818564bbcc6303617abb5031547
 
 function App() {
   return (
