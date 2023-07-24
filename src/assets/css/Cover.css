@@ -1,0 +1,191 @@
+/* Cover.css */
+
+/* Styling for the cover container */
+.cover-container {
+  position: relative;
+  text-align: center;
+  padding: 5%; /* Add 5% padding on all sides */
+}
+
+/* Logo styles within the cover container */
+.logo {
+  position: absolute;
+  top: 5%; /* Position logo 5% from the top */
+  left: 5%; /* Position logo 5% from the left */
+  max-width: 100%; /* Ensure logo scales down if it exceeds container width */
+  height: auto;
+}
+
+/* Adjust logo position for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .logo {
+    top: 3%; /* Position logo 3% from the top */
+    left: 3%; /* Position logo 3% from the left */
+  }
+}
+
+/* Container for an image in the cover section */
+.image-container {
+  position: relative;
+  margin-top: 5%; /* Add margin from the top */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right; /* Float the container to the right */
+  margin-right: 5%; /* Add margin from the right */
+}
+
+/* Background pattern styles */
+.pattern {
+  max-width: 60%; /* Set maximum width for the background pattern */
+  height: auto;
+  background-image: url('../images/exclusion5.png'); /* Add background image URL */
+}
+
+/* Adjust background pattern size and margin for screens up to 1024px */
+@media (max-width: 1024px) {
+  .pattern {
+    max-width: 80%; /* Increase pattern width */
+    margin-top: 10%; /* Add more margin from the top */
+  }
+}
+
+/* Further adjust background pattern size and margin for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .pattern {
+    max-width: 100%; /* Adjust pattern width to fit smaller screens */
+    margin-top: 15%; /* Increase margin from the top */
+  }
+}
+
+/* Styles for design circles */
+.designcircles {
+  position: absolute;
+  top: calc(100% + 10px); /* Position below the cover container with 10px spacing */
+  left: 60%; /* Position 60% from the left */
+  max-width: 200px; /* Set maximum width for the design circles */
+  height: auto;
+  z-index: 1; /* Place above other elements with z-index */
+}
+
+/* Adjust design circle position and width for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .designcircles {
+    top: calc(100% + 10px); /* Position below the cover container with 10px spacing */
+    left: 5%; /* Position 5% from the left */
+    max-width: 150px; /* Reduce maximum width for smaller screens */
+  }
+}
+
+/* Styling for the main heading (h1) in the cover container */
+h1 {
+  font-size: 2rem; /* Set font size for the main heading */
+  margin-top: 5%; /* Add margin from the top */
+  text-align: center;
+}
+
+/* Adjust main heading font size for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Styling for paragraphs (p) in the cover container */
+p {
+  font-size: 1.2rem; /* Set font size for paragraphs */
+  margin-top: 3%; /* Add margin from the top */
+  text-align: center;
+}
+
+/* Adjust paragraph font size for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Styling for the book button */
+.book-button {
+  background-color: blue; /* Set button background color to blue */
+  color: white; /* Set text color to white */
+  font-size: 1.2rem; /* Set font size for the button text */
+  left: 5%; /* Position the button 5% from the left */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add border-radius to create rounded corners */
+  margin-top: 3%; /* Add margin from the top */
+  display: block; /* Make the button a block element */
+  margin-left: auto; /* Center the button horizontally */
+  margin-right: auto; /* Center the button horizontally */
+}
+
+/* Adjust button font size for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .book-button {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Intersection element positioning */
+.intersection {
+  position: absolute;
+  top: 35%; /* Position the intersection element 35% from the top */
+  left: 10%; /* Position the intersection element 10% from the left */
+  max-width: 100px; /* Set maximum width for the intersection element */
+  height: auto;
+  flex-shrink: 0;
+  z-index: -1; /* Place the intersection element behind other elements */
+}
+
+/* Adjust intersection element position and width for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .intersection {
+    top: 35%; /* Position the intersection element 35% from the top */
+    left: 5%; /* Position the intersection element 5% from the left */
+    max-width: 80px; /* Reduce maximum width for smaller screens */
+  }
+}
+
+/* Responsiveness for card images */
+.card-section {
+  margin-top: 20%; /* Add margin from the top for the card section */
+}
+
+/* Styles for individual cards */
+.Section {
+  width: 428px;
+  height: 199px;
+  left: 30px;
+  top: 77.20px;
+  position: absolute;
+}
+
+.Card1,
+.Card2,
+.Card3,
+.Card4,
+.Card5,
+.Card6 {
+  width: 295px;
+  height: 261px;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* Additional styling for specific cards */
+.Card2 {
+  width: 294.54px;
+  left: 963.46px;
+}
+
+.Card4 {
+  width: 294.54px;
+  left: 320.46px;
+}
+
+.Card5 {
+  width: 291px;
+  left: 646px;
+}
