@@ -1,4 +1,5 @@
 import React from 'react';
+import Accordion from './components/Accordion';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import './meet.css';
 
 >>>>>>> fa7984c2d0dd6818564bbcc6303617abb5031547
+
+import Accordion from './components/Accordion';
 
 function App() {
   return (
