@@ -21,6 +21,8 @@ import './meet.css';
 
 >>>>>>> fa7984c2d0dd6818564bbcc6303617abb5031547
 
+import Testimonials from "./components/Testimonials.js";
+
 import Accordion from './components/Accordion';
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
       <Routes>
         <Route path = "/" element = {<Cover/>}  />
         <Route path = "*" element = {<Cover/>}  />
+        <Route path = "/" element = {<Testimonials /> } />
+        <Route path = "*" element = {<Testimonials /> } />
       </Routes>
       </BrowserRouter>
   );
